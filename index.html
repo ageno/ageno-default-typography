@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ageno default web typography CSS file which can be included in your project</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+  <link href="css/ageno-default-typography.css" rel="stylesheet">
+  <link href="css/wp-core.css" rel="stylesheet"> <!-- If you are using wordpress -->
+  <style>
+    /*
+      Remove this part of CSS.
+      .ageno-default-typography is just for tests remov it or use your own class
+      *******************************************************************************
+    */
+
+    * {
+      transition: all 300ms ease-in-out;
+    }
+
+    :root,
+    body {
+      font-size: 16px;
+    }
+
+    body > main {
+      max-width: 45em;
+      margin: 0 auto;
+      padding: 3em;
+      font-family: "Lato", sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <code><strong>Ageno Default Typography</strong> is a basic typography CSS file which can be included in your standard blog posts and static pages.</code>
+
+    <h1>This is <code>h1</code>, it defines the most important heading</h1>
+    <h2>Subheader <code>h2</code> isn't obligatory, but sometimes <del>not</del> useful</h2>
+    <p class="lead">A lead paragraph in journalism and sometimes other kinds of literature is the opening paragraph of an article, essay, news story or book chapter. Often called <a href="https://en.wikipedia.org/wiki/Lead_paragraph">the lead</a>, it usually occurs together with the headline or title. It precedes the main body of the article, and it gives the reader the main idea of the story. In both spellings, the word rhymes with the word need.</p>
+
+    <h2>Basic typography starting with <code>h2</code> header</h2>
+    <p>A paragraph is a <strong>self-contained unit</strong> of a discourse in writing dealing with a particular point or idea. A <a href="https://en.wikipedia.org/wiki/Paragraph">paragraph</a> consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+    <p>This is also a <mark>paragraph</mark>. It's just for tests, so you can see the proper margins.</p>
+
+    <h3>Header <code>h3</code>is less important then <code>h2</code></h3>
+    <p>A paragraph is a <strong>self-contained unit</strong> of a discourse in writing dealing with a particular point or idea. A <a href="https://en.wikipedia.org/wiki/Paragraph">paragraph</a> consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+    <p><small>And also it's paragraph too, but now we are using <code>small</code> tag</small></p>
+
+    <h4>Header <code>h4</code>is less important then <code>h3</code>and so on</h4>
+    <p>A paragraph is a <strong>self-contained unit</strong> of a discourse in writing dealing with a particular point or idea. A <a href="https://en.wikipedia.org/wiki/Paragraph">paragraph</a> consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+      <footer>&ndash;  <strong>Blockquote</strong></footer>
+    </blockquote>
+
+    <p>This is also a paragraph. It's just for tests, so you can see the proper margins.</p>
+
+    <hr>
+
+    <h2>Tables</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>Shipping carrier / Size</th>
+            <th>XL</th>
+            <th>L</th>
+            <th>M</th>
+            <th>S</th>
+          </tr>
+          <tr>
+            <td>UPS</td>
+            <td>&dollar;22</td>
+            <td>&dollar;18</td>
+            <td>&dollar;16</td>
+            <td>&dollar;11</td>
+          </tr>
+          <tr>
+            <td>DPD</td>
+            <td>&dollar;21</td>
+            <td>&dollar;17</td>
+            <td>&dollar;16</td>
+            <td>&dollar;9</td>
+          </tr>
+          <tr>
+            <td>FedEx</td>
+            <td>&dollar;24</td>
+            <td>&dollar;19</td>
+            <td>&dollar;17</td>
+            <td>&dollar;8</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <h2>Lists</h2>
+    <h3>Unordered</h3>
+    <ul>
+      <li>One unordered item - really nice discs</li>
+      <li>Second unordered item
+        <ul>
+          <li>Sub second unordered item</li>
+        </ul>
+      </li>
+      <li>Third unordered item</li>
+    </ul>
+
+    <h3>Ordered</h3>
+    <ol>
+      <li>One ordered item - really nice decimals</li>
+      <li>Second ordered item
+        <ul>
+          <li>Sub second unordered item</li>
+          <li>Sub second unordered item</li>
+        </ul>
+      </li>
+      <li>Third ordered item</li>
+    </ol>
+
+    <hr>
+
+    <h2>Images</h2>
+    <h3>Image in p</h3>
+    <p>It's a standard image with fullwidth.</p>
+    <p><img src="http://ageno.pl/assets/img/header/bielsko-biala-jesien.jpg" alt="Title of image"></p>
+
+    <h3>Image with figure and figurecaption tag</h3>
+    <figure>
+      <img src="http://ageno.pl/assets/img/header/bielsko-biala-jesien.jpg" alt="Title of image">
+      <figcaption>Caption for image</figcaption>
+    </figure>
+
+    <h3>WordPress default image aligning</h3>
+    <h4>Class alignleft</h4>
+    <p><img src="http://ageno.pl/assets/img/header/bielsko-biala-jesien.jpg" alt="Title of image" class="alignleft" width="250"> A paragraph is a <strong>self-contained unit</strong> of a discourse in writing dealing with a particular point or idea. A <a href="https://en.wikipedia.org/wiki/Paragraph">paragraph</a> consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+    <p>In word processing and desktop publishing, a hard return or paragraph break indicates a new paragraph, to be distinguished from the soft return at the end of a line internal to a paragraph. This distinction allows word wrap to automatically re-flow text as it is edited, without losing paragraph breaks. The software may apply vertical whitespace or indenting at paragraph breaks, depending on the selected style.</p>
+    <p>How such documents are actually stored depends on the file format. For example, HTML uses the p tag as a paragraph container. In plaintext files, there are two common formats. Pre-formatted text will have a newline at the end of every physical line, and two newlines at the end of a paragraph, creating a blank line. An alternative is to only put newlines at the end of each paragraph, and leave word wrapping up to the application that displays or processes the text.</p>
+    <p>A line break that is inserted manually, and preserved when re-flowing, may still be distinct from a paragraph break, although this is typically not done in prose. HTML's <br /> tag produces a line break without ending the paragraph; the W3C recommends using it only to separate lines of verse (where each "paragraph" is a stanza), or in a street address.</p>
+
+    <h4>Class alignright</h4>
+    <p><img src="http://ageno.pl/assets/img/header/bielsko-biala-jesien.jpg" alt="Title of image" class="alignright" width="250"> A paragraph is a <strong>self-contained unit</strong> of a discourse in writing dealing with a particular point or idea. A <a href="https://en.wikipedia.org/wiki/Paragraph">paragraph</a> consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+    <p>In word processing and desktop publishing, a hard return or paragraph break indicates a new paragraph, to be distinguished from the soft return at the end of a line internal to a paragraph. This distinction allows word wrap to automatically re-flow text as it is edited, without losing paragraph breaks. The software may apply vertical whitespace or indenting at paragraph breaks, depending on the selected style.</p>
+    <p>How such documents are actually stored depends on the file format. For example, HTML uses the p tag as a paragraph container. In plaintext files, there are two common formats. Pre-formatted text will have a newline at the end of every physical line, and two newlines at the end of a paragraph, creating a blank line. An alternative is to only put newlines at the end of each paragraph, and leave word wrapping up to the application that displays or processes the text.</p>
+    <p>A line break that is inserted manually, and preserved when re-flowing, may still be distinct from a paragraph break, although this is typically not done in prose. HTML's <br /> tag produces a line break without ending the paragraph; the W3C recommends using it only to separate lines of verse (where each "paragraph" is a stanza), or in a street address.</p>
+
+    <h4>Class alignnone</h4>
+    <p><img src="http://ageno.pl/assets/img/header/bielsko-biala-jesien.jpg" alt="Title of image" class="alignnone" width="250"> A paragraph is a <strong>self-contained unit</strong> of a discourse in writing dealing with a particular point or idea. A <a href="https://en.wikipedia.org/wiki/Paragraph">paragraph</a> consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+    <p>In word processing and desktop publishing, a hard return or paragraph break indicates a new paragraph, to be distinguished from the soft return at the end of a line internal to a paragraph. This distinction allows word wrap to automatically re-flow text as it is edited, without losing paragraph breaks. The software may apply vertical whitespace or indenting at paragraph breaks, depending on the selected style.</p>
+    <p>How such documents are actually stored depends on the file format. For example, HTML uses the p tag as a paragraph container. In plaintext files, there are two common formats. Pre-formatted text will have a newline at the end of every physical line, and two newlines at the end of a paragraph, creating a blank line. An alternative is to only put newlines at the end of each paragraph, and leave word wrapping up to the application that displays or processes the text.</p>
+    <p>A line break that is inserted manually, and preserved when re-flowing, may still be distinct from a paragraph break, although this is typically not done in prose. HTML's <br /> tag produces a line break without ending the paragraph; the W3C recommends using it only to separate lines of verse (where each "paragraph" is a stanza), or in a street address.</p>
+
+    <h4>Class aligncenter</h4>
+    <p><img src="http://ageno.pl/assets/img/header/bielsko-biala-jesien.jpg" alt="Title of image" class="aligncenter" width="250"> A paragraph is a <strong>self-contained unit</strong> of a discourse in writing dealing with a particular point or idea. A <a href="https://en.wikipedia.org/wiki/Paragraph">paragraph</a> consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+    <p>In word processing and desktop publishing, a hard return or paragraph break indicates a new paragraph, to be distinguished from the soft return at the end of a line internal to a paragraph. This distinction allows word wrap to automatically re-flow text as it is edited, without losing paragraph breaks. The software may apply vertical whitespace or indenting at paragraph breaks, depending on the selected style.</p>
+    <p>How such documents are actually stored depends on the file format. For example, HTML uses the p tag as a paragraph container. In plaintext files, there are two common formats. Pre-formatted text will have a newline at the end of every physical line, and two newlines at the end of a paragraph, creating a blank line. An alternative is to only put newlines at the end of each paragraph, and leave word wrapping up to the application that displays or processes the text.</p>
+    <p>A line break that is inserted manually, and preserved when re-flowing, may still be distinct from a paragraph break, although this is typically not done in prose. HTML's <br /> tag produces a line break without ending the paragraph; the W3C recommends using it only to separate lines of verse (where each "paragraph" is a stanza), or in a street address.</p>
+
+    <hr>
+
+    <p><small>Copyright © 2016 <a href="http://ageno.pl/">Ageno.pl</a><sup>®</sup></small></p>
+  </main>
+</body>
+</html>
