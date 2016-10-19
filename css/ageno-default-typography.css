@@ -1,4 +1,4 @@
-h1 {
+.ageno-default-typography h1 {
   display: block;
   font-size: 2em;
   margin-top: 0.67em;
@@ -8,7 +8,7 @@ h1 {
   font-weight: bold;
 }
 
-h2 {
+.ageno-default-typography h2 {
   display: block;
   font-size: 1.5em;
   margin-top: 0.83em;
@@ -18,7 +18,7 @@ h2 {
   font-weight: bold;
 }
 
-h3 {
+.ageno-default-typography h3 {
   display: block;
   font-size: 1.17em;
   margin-top: 1em;
@@ -28,7 +28,7 @@ h3 {
   font-weight: bold;
 }
 
-h4 {
+.ageno-default-typography h4 {
   display: block;
   margin-top: 1.33em;
   margin-bottom: 1.33em;
@@ -37,7 +37,7 @@ h4 {
   font-weight: bold;
 }
 
-h5 {
+.ageno-default-typography h5 {
   display: block;
   font-size: .83em;
   margin-top: 1.67em;
@@ -47,16 +47,16 @@ h5 {
   font-weight: bold;
 }
 
-a {
+.ageno-default-typography a {
   cursor: pointer;
   text-decoration:none
 }
 
 a:hover,
-a:focus { }
+.ageno-default-typography a:focus { }
 
 blockquote,
-aside {
+.ageno-default-typography aside {
   font-size: 1em;
   font-style: italic;
   padding: 1em;
@@ -67,16 +67,16 @@ aside {
 }
 
 blockquote p,
-aside p {
+.ageno-default-typography aside p {
   margin: 0;
 }
 
 blockquote footer,
-aside footer {
+.ageno-default-typography aside footer {
   margin-top: 1em;
 }
 
-code {
+.ageno-default-typography code {
   padding: 0;
   margin: 0;
   font-size: .9em;
@@ -85,14 +85,14 @@ code {
   color: rgba(0, 0, 0, 0.7);;
 }
 
-pre {
+.ageno-default-typography pre {
   display: block;
   font-family: monospace;
   white-space: pre;
   margin: 1em 0;
 }
 
-hr {
+.ageno-default-typography hr {
   display: block;
   clear: both;
   border: 0;
@@ -101,7 +101,7 @@ hr {
   margin: 2em auto;
 }
 
-p {
+.ageno-default-typography p {
   display: block;
   clear: both;
   margin-top: 1em;
@@ -110,30 +110,30 @@ p {
   margin-right: 0;
 }
 
-p.lead {
+.ageno-default-typography p.lead {
   font-size: 1.5em;
 }
 
 b,
-strong { font-weight: bold; }
+.ageno-default-typography strong { font-weight: bold; }
 
 em,
-i { font-style: italic; }
+.ageno-default-typography i { font-style: italic; }
 
-del {
+.ageno-default-typography del {
   text-decoration:line-through;
 }
 
-mark {
+.ageno-default-typography mark {
   background-color: #fffbbb;
   color: inherit;
 }
 
-small {
+.ageno-default-typography small {
   font-size: 0.85em;
 }
 
-table {
+.ageno-default-typography table {
   display: table;
   width: 100%;
   border-collapse: collapse;
@@ -141,19 +141,19 @@ table {
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-tr:nth-of-type(odd) {
+.ageno-default-typography tr:nth-of-type(odd) {
   background: rgba(0, 0, 0, 0.02);
 }
 
-tr td:last-child {
+.ageno-default-typography tr td:last-child {
   border-right: 1px solid rgba(0, 0, 0, 0.17);
 }
 
-tr th:last-child  {
+.ageno-default-typography tr th:last-child  {
   border-right: 1px solid rgba(0, 0, 0, 0.8);
 }
 
-td {
+.ageno-default-typography td {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -163,7 +163,7 @@ td {
   padding: .75em 1em;
 }
 
-th {
+.ageno-default-typography th {
   display: table-cell;
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
@@ -175,7 +175,7 @@ th {
   padding: .75em 1em;
 }
 
-ul {
+.ageno-default-typography ul {
   display: block;
   list-style-type: disc;
   margin-top: 1em;
@@ -185,14 +185,14 @@ ul {
   padding-left: 2em;
 }
 
-ul ul {
+.ageno-default-typography ul ul {
   list-style-type: circle;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 1em;
 }
 
-ol {
+.ageno-default-typography ol {
     display: block;
     list-style-type: decimal;
     margin-top: 1em;
@@ -202,7 +202,7 @@ ol {
     padding-left: 2em;
 }
 
-ol ol {
+.ageno-default-typography ol ol {
   list-style-type: lower-latin;
   margin-top: 0;
   margin-bottom: 0;
@@ -210,25 +210,25 @@ ol ol {
 }
 
 ul ol,
-ol ul {
+.ageno-default-typography ol ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 1em;
 }
 
 
-li {
+.ageno-default-typography li {
   display: list-item;
   margin-top: .25em;
   margin-bottom: .25em;
 }
 
-img {
+.ageno-default-typography img {
   max-width:100%;
   display: block;
 }
 
-figure {
+.ageno-default-typography figure {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -236,12 +236,12 @@ figure {
   margin-right: 0;
 }
 
-figure img {
+.ageno-default-typography figure img {
   margin-bottom: .25em;
   line-height: 1;
 }
 
-figcaption {
+.ageno-default-typography figcaption {
   display: block;
   font-size: .9em;
   color: #777;
