@@ -1,0 +1,248 @@
+.#{$default_class_name} h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.#{$default_class_name} h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.#{$default_class_name} h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.#{$default_class_name} h4 {
+  display: block;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.#{$default_class_name} h5 {
+  display: block;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.#{$default_class_name} a {
+  cursor: pointer;
+  text-decoration:none
+}
+
+a:hover,
+.#{$default_class_name} a:focus { }
+
+blockquote,
+.#{$default_class_name} aside {
+  font-size: 1em;
+  font-style: italic;
+  padding: 1em;
+  border-left: .33em solid rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 1em 3em;
+  max-width: 32em;
+}
+
+blockquote p,
+.#{$default_class_name} aside p {
+  margin: 0;
+}
+
+blockquote footer,
+.#{$default_class_name} aside footer {
+  margin-top: 1em;
+}
+
+.#{$default_class_name} code {
+  padding: 0;
+  margin: 0;
+  font-size: .9em;
+  border-radius: 3px;
+  font-family: monospace;
+  color: rgba(0, 0, 0, 0.7);;
+}
+
+.#{$default_class_name} pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+}
+
+.#{$default_class_name} hr {
+  display: block;
+  clear: both;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .05), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .05));
+  margin: 2em auto;
+}
+
+.#{$default_class_name} p {
+  display: block;
+  clear: both;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.#{$default_class_name} p.lead {
+  font-size: 1.5em;
+}
+
+b,
+.#{$default_class_name} strong { font-weight: bold; }
+
+em,
+.#{$default_class_name} i { font-style: italic; }
+
+.#{$default_class_name} del {
+  text-decoration:line-through;
+}
+
+.#{$default_class_name} mark {
+  background-color: #fffbbb;
+  color: inherit;
+}
+
+.#{$default_class_name} small {
+  font-size: 0.85em;
+}
+
+.#{$default_class_name} table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.#{$default_class_name} tr:nth-of-type(odd) {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.#{$default_class_name} tr td:last-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+.#{$default_class_name} tr th:last-child  {
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.#{$default_class_name} td {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-left: 0;
+  border-bottom: 0;
+  padding: .75em 1em;
+}
+
+.#{$default_class_name} th {
+  display: table-cell;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  vertical-align: middle;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+  padding: .75em 1em;
+}
+
+.#{$default_class_name} ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 2em;
+}
+
+.#{$default_class_name} ul ul {
+  list-style-type: circle;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
+.#{$default_class_name} ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2em;
+}
+
+.#{$default_class_name} ol ol {
+  list-style-type: lower-latin;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
+ul ol,
+.#{$default_class_name} ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
+
+.#{$default_class_name} li {
+  display: list-item;
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+.#{$default_class_name} img {
+  max-width:100%;
+  display: block;
+}
+
+.#{$default_class_name} figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.#{$default_class_name} figure img {
+  margin-bottom: .25em;
+  line-height: 1;
+}
+
+.#{$default_class_name} figcaption {
+  display: block;
+  font-size: .9em;
+  color: #777;
+}
