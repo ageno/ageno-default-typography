@@ -1,0 +1,29 @@
+{
+  "name": "ageno-default-typography",
+  "version": "1.0.0",
+  "description": "Default typography CSS file for common posts, static pages etc.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxbmx/ageno-default-typography.git"
+  },
+  "keywords": [
+    "css",
+    "typography",
+    "normalize"
+  ],
+  "author": "Ageno.pl, Maksymilian Sleziak <maksymilian.sleziak@gmail.com> (http://ageno.pl)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxbmx/ageno-default-typography/issues"
+  },
+  "homepage": "https://github.com/maxbmx/ageno-default-typography#readme",
+  "dependencies": {
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.1.1",
+    "normalize.css": "^5.0.0"
+  }
+}
