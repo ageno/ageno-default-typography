@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maxbmx/ageno-default-typography.git"
+    "url": "git+https://github.com/maxbmx/ageno-default-typography.git",
+    "type": "git"
   },
   "keywords": [
     "css",
@@ -33,8 +33,5 @@
     "gulp-sourcemaps": "^2.1.1",
     "normalize.css": "^5.0.0",
     "run-sequence": "^1.2.2"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.17.5"
   }
 }
