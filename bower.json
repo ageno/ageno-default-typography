@@ -1,0 +1,23 @@
+{
+  "name": "ageno-default-typography",
+  "description": "Default typography CSS file for common posts, static pages etc.",
+  "main": "index.html",
+  "authors": [
+    "Ageno.pl",
+    "Maksymilian Sleziak <maksymilian.sleziak@gmail.com> (http://ageno.pl)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "css",
+    "typography",
+    "normalize"
+  ],
+  "homepage": "https://github.com/maxbmx/ageno-default-typography",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
