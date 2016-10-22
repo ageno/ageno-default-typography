@@ -4,31 +4,34 @@ Ageno Default Typography
 
 Installation
 -------------------------
-** Npm **
+**Npm**
 ```sh
 npm install ageno-default-typography --save
 ```
 
- ** Bower **
+**Bower**
 ```sh
 bower install ageno-default-typography --save
 ```
 
- ** Download from GitHub **
+**Download from GitHub**
 https://github.com/maxbmx/ageno-default-typography
 
+=============================
+
 ### Using
+
 1. Include css file to your document:
-```html
-<link href="css/ageno-default-typography.min.css" rel="stylesheet">
-```
+  ```
+  <link href="css/ageno-default-typography.min.css" rel="stylesheet">
+  ```
 
 2. Use `.adt` class in content container:
-```html
-<div class="adt">
-  <!-- Content goes here -->
-</div>
-```
+  ```html
+  <div class="adt">
+    <!-- Content goes here -->
+  </div>
+  ```
 
 3. Done.
 
@@ -41,4 +44,4 @@ Demo
  - Any bugs please feel free to report.
  - You are welcome to fork and submit pullrequests.
 
-** ageno-default-typography **  is a project by Maksymilian Śleziak @ [Ageno.pl](http://ageno.pl/)
+**ageno-default-typography** is a project by Maksymilian Śleziak @ [Ageno.pl](http://ageno.pl/)
