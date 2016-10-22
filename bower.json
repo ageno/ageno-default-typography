@@ -19,5 +19,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/maxbmx/ageno-default-typography.git",
+    "type": "git"
+  },
+  "author": "Ageno.pl, Maksymilian Sleziak <maksymilian.sleziak@gmail.com> (http://ageno.pl)"
 }
