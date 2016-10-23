@@ -1,4 +1,4 @@
-.#{$default_class_name} h1 {
+h1 {
   display: block;
   font-size: 2em;
   margin-top: 0.67em;
@@ -8,7 +8,7 @@
   font-weight: bold;
 }
 
-.#{$default_class_name} h2 {
+h2 {
   display: block;
   font-size: 1.5em;
   margin-top: 0.83em;
@@ -18,7 +18,7 @@
   font-weight: bold;
 }
 
-.#{$default_class_name} h3 {
+h3 {
   display: block;
   font-size: 1.17em;
   margin-top: 1em;
@@ -28,7 +28,7 @@
   font-weight: bold;
 }
 
-.#{$default_class_name} h4 {
+h4 {
   display: block;
   margin-top: 1.33em;
   margin-bottom: 1.33em;
@@ -37,7 +37,7 @@
   font-weight: bold;
 }
 
-.#{$default_class_name} h5 {
+h5 {
   display: block;
   font-size: .83em;
   margin-top: 1.67em;
@@ -47,16 +47,16 @@
   font-weight: bold;
 }
 
-.#{$default_class_name} a {
+a {
   cursor: pointer;
   text-decoration:none
 }
 
 a:hover,
-.#{$default_class_name} a:focus { }
+a:focus { }
 
 blockquote,
-.#{$default_class_name} aside {
+aside {
   font-size: 1em;
   font-style: italic;
   padding: 1em;
@@ -67,16 +67,16 @@ blockquote,
 }
 
 blockquote p,
-.#{$default_class_name} aside p {
+aside p {
   margin: 0;
 }
 
 blockquote footer,
-.#{$default_class_name} aside footer {
+aside footer {
   margin-top: 1em;
 }
 
-.#{$default_class_name} code {
+code {
   padding: 0;
   margin: 0;
   font-size: .9em;
@@ -85,14 +85,14 @@ blockquote footer,
   color: rgba(0, 0, 0, 0.7);;
 }
 
-.#{$default_class_name} pre {
+pre {
   display: block;
   font-family: monospace;
   white-space: pre;
   margin: 1em 0;
 }
 
-.#{$default_class_name} hr {
+hr {
   display: block;
   clear: both;
   border: 0;
@@ -101,7 +101,7 @@ blockquote footer,
   margin: 2em auto;
 }
 
-.#{$default_class_name} p {
+p {
   display: block;
   clear: both;
   margin-top: 1em;
@@ -110,30 +110,30 @@ blockquote footer,
   margin-right: 0;
 }
 
-.#{$default_class_name} p.lead {
+p.lead {
   font-size: 1.5em;
 }
 
 b,
-.#{$default_class_name} strong { font-weight: bold; }
+strong { font-weight: bold; }
 
 em,
-.#{$default_class_name} i { font-style: italic; }
+i { font-style: italic; }
 
-.#{$default_class_name} del {
+del {
   text-decoration:line-through;
 }
 
-.#{$default_class_name} mark {
+mark {
   background-color: #fffbbb;
   color: inherit;
 }
 
-.#{$default_class_name} small {
+small {
   font-size: 0.85em;
 }
 
-.#{$default_class_name} table {
+table {
   display: table;
   width: 100%;
   border-collapse: collapse;
@@ -141,19 +141,19 @@ em,
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.#{$default_class_name} tr:nth-of-type(odd) {
+tr:nth-of-type(odd) {
   background: rgba(0, 0, 0, 0.02);
 }
 
-.#{$default_class_name} tr td:last-child {
+tr td:last-child {
   border-right: 1px solid rgba(0, 0, 0, 0.17);
 }
 
-.#{$default_class_name} tr th:last-child  {
+tr th:last-child  {
   border-right: 1px solid rgba(0, 0, 0, 0.8);
 }
 
-.#{$default_class_name} td {
+td {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -163,7 +163,7 @@ em,
   padding: .75em 1em;
 }
 
-.#{$default_class_name} th {
+th {
   display: table-cell;
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
@@ -175,7 +175,7 @@ em,
   padding: .75em 1em;
 }
 
-.#{$default_class_name} ul {
+ul {
   display: block;
   list-style-type: disc;
   margin-top: 1em;
@@ -185,14 +185,14 @@ em,
   padding-left: 2em;
 }
 
-.#{$default_class_name} ul ul {
+ul ul {
   list-style-type: circle;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 1em;
 }
 
-.#{$default_class_name} ol {
+ol {
     display: block;
     list-style-type: decimal;
     margin-top: 1em;
@@ -202,7 +202,7 @@ em,
     padding-left: 2em;
 }
 
-.#{$default_class_name} ol ol {
+ol ol {
   list-style-type: lower-latin;
   margin-top: 0;
   margin-bottom: 0;
@@ -210,25 +210,25 @@ em,
 }
 
 ul ol,
-.#{$default_class_name} ol ul {
+ol ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 1em;
 }
 
 
-.#{$default_class_name} li {
+li {
   display: list-item;
   margin-top: .25em;
   margin-bottom: .25em;
 }
 
-.#{$default_class_name} img {
+img {
   max-width:100%;
   display: block;
 }
 
-.#{$default_class_name} figure {
+figure {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -236,12 +236,12 @@ ul ol,
   margin-right: 0;
 }
 
-.#{$default_class_name} figure img {
+figure img {
   margin-bottom: .25em;
   line-height: 1;
 }
 
-.#{$default_class_name} figcaption {
+figcaption {
   display: block;
   font-size: .9em;
   color: #777;
