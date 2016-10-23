@@ -37,7 +37,8 @@ https://github.com/maxbmx/ageno-default-typography
 
 Demo
 ----------------------
- - [maxbmx.github.io/ageno-default-typography](https://maxbmx.github.io/ageno-default-typography/)
+ - Live demo - [maxbmx.github.io/ageno-default-typography/demo.html](https://maxbmx.github.io/ageno-default-typography/demo.html)
+ - Example - [maxbmx.github.io/ageno-default-typography](https://maxbmx.github.io/ageno-default-typography/)
 
 ## Support
 
