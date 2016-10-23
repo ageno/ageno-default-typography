@@ -31,6 +31,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-sass-error": "^1.0.2",
     "gulp-sourcemaps": "^2.1.1",
+    "gulp-strip-css-comments": "^1.2.0",
     "normalize.css": "^5.0.0",
     "run-sequence": "^1.2.2"
   }

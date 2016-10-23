@@ -1,0 +1,47 @@
+* {
+  transition: all 300ms ease-in-out;
+}
+
+:root, body { font-size: 16px; }
+
+html, body { height: 100%; }
+
+#ageno-textarea {
+  position: fixed;
+  vertical-align: top;
+  display: block;
+  width: 46%;
+  border: none;
+  resize: none;
+  outline: none;
+  border-right: 1px solid #eee;
+  background: #fffaf6;
+  padding: 2%;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Monaco', courier, monospace;
+  font-size: .85em;
+}
+
+#target {
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 2%;
+  margin-left: 46%;
+  height: 96%;
+  vertical-align: top;
+  font-family: "Lato", sans-serif;
+}
+
+textarea:focus,
+textarea:active,
+ {
+  outline: none;
+  border: none;
+}
+
+textarea::selection {
+  background: #ffb7b7;
+}

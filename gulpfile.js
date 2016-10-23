@@ -6,7 +6,7 @@ var rename = require('gulp-rename');
 var cleancss = require('gulp-clean-css');
 var runSequence = require('run-sequence');
 var autoprefixer = require('gulp-autoprefixer');
-
+var stripCssComments = require('gulp-strip-css-comments');
 
 var sassOptions = {
   errLogToConsole: true,
@@ -18,6 +18,7 @@ gulp.task('sass', function () {
     .pipe(sourcemaps.init())
     .pipe(plumber())
     .pipe(sass().on('error', sass.logError))
+    .pipe(stripCssComments())
     .pipe(sourcemaps.write('./maps'))
     .pipe(rename('ageno-default-typography.css'))
     .pipe(gulp.dest('./css'))
@@ -34,12 +35,13 @@ gulp.task('css-min', function () {
 
 gulp.task('normalizecss', function () {
   return gulp.src('./node_modules/normalize.css/normalize.css')
+    .pipe(stripCssComments({preserve: false}))
     .pipe(rename('normalize.scss'))
     .pipe(gulp.dest('./sass'));
 });
 
-gulp.task('watch', ['sass'], function (){
-  gulp.watch('app/scss/**/*.scss', ['sass']);
+gulp.task('watch', function (){
+  gulp.watch('app/scss/**/*.scss', ['default']);
   // Other watchers
 });
 

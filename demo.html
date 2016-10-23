@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <title>Demo - Ageno default web typography CSS file which can be included in your project</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+  <link href="css/demo.css" rel="stylesheet">
+  <link href="css/ageno-default-typography.min.css" rel="stylesheet">
+</head>
+<body class="container adt">
+
+<textarea id="ageno-textarea">
+  <h1>Use your own HTML</h1>
+
+  <p>You can test, how your post will look.</p>
+
+  <h2>Example list</h2>
+
+  <ul>
+    <li>One unordered item - really nice discs</li>
+    <li>Second unordered item</li>
+    <li>Third unordered item</li>
+  </ul>
+</textarea>
+
+<div id="target"></div>
+
+</body>
+
+<script>
+  var textarea  = document.getElementById("ageno-textarea");
+  var target    = document.getElementById("target");
+
+  function copy_to_target(){
+    target.innerHTML = textarea.value;
+  }
+
+  textarea.addEventListener("keyup", function(){
+    copy_to_target();
+  });
+
+  textarea.addEventListener("onmouseup", function(){
+    copy_to_target();
+  });
+
+  document.addEventListener("DOMContentLoaded", function(event) {
+    copy_to_target();
+    textarea.focus();
+    textarea.select();
+  });
+
+</script>
+</html>
