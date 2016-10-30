@@ -20,12 +20,12 @@ bower install ageno-default-typography --save
 
 ## Setup
 
-1. Include css file in your document:
+**1. Include css file in your document:**
 ```
 <link href="css/ageno-default-typography.min.css" rel="stylesheet">
 ```
 
-2. Use `.adt` class in content container:
+**2. Use `.adt` class win conthere the contrnt container is:**
 ```html
 <div class="adt">
   <!-- Content goes here -->
