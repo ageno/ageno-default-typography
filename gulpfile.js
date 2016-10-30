@@ -7,6 +7,7 @@ var cleancss = require('gulp-clean-css');
 var runSequence = require('run-sequence');
 var autoprefixer = require('gulp-autoprefixer');
 var stripCssComments = require('gulp-strip-css-comments');
+var cssbeautify = require('gulp-cssbeautify');
 
 var sassOptions = {
   errLogToConsole: true,
@@ -19,6 +20,7 @@ gulp.task('sass', function () {
     .pipe(plumber())
     .pipe(sass().on('error', sass.logError))
     .pipe(stripCssComments())
+    .pipe(cssbeautify( { indent: '  '} ))
     .pipe(sourcemaps.write('./maps'))
     .pipe(rename('ageno-default-typography.css'))
     .pipe(gulp.dest('./css'))
