@@ -2,9 +2,9 @@
 **Ageno Default Typography** - is not another CSS framework. It's just a basic typography CSS file, which can be included in your default blog posts and static pages when your front-end developer forgot about it.
 
 ##Demo
- - Live demo - [maxbmx.github.io/ageno-default-typography/demo.html](https://maxbmx.github.io/ageno-default-typography/demo.html)
- - Example - [maxbmx.github.io/ageno-default-typography](https://maxbmx.github.io/ageno-default-typography/)
- - Home -  https://github.com/maxbmx/ageno-default-typography
+ - Live demo - [ageno.github.io/ageno-default-typography/demo.html](https://ageno.github.io/ageno-default-typography/demo.html)
+ - Example - [ageno.github.io/ageno-default-typography](https://ageno.github.io/ageno-default-typography/)
+ - Home -  https://github.com/ageno/ageno-default-typography
 
 ## Installation
 
@@ -37,4 +37,4 @@ bower install ageno-default-typography --save
  - Any bugs please feel free to report.
  - You are welcome to fork and submit pullrequests.
 
-**ageno-default-typography** is a project by Maksymilian Sleziak @ [Ageno.pl](http://ageno.pl/)
+**ageno-default-typography** is a project by Maksymilian Sleziak @ [Ageno.pl](https://ageno.pl/)
